@@ -18,7 +18,7 @@ public class Seeder {
 
     @PostConstruct
     void seedRole(){
-        Arrays.asList(ERole.ROLE_ADMIN, ERole.ROLE_USER, ERole.ROLE_MODERATOR).forEach(r -> {
+        Arrays.asList(ERole.ROLE_ADMIN, ERole.ROLE_USER, ERole.ROLE_MODERATOR, ERole.ROLE_SELLER).forEach(r -> {
             if(!roleRepository.findByName(r).isPresent()){
                 Role role = new Role();
                 role.setName(r);
