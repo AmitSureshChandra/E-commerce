@@ -1,9 +1,9 @@
 package com.example.ecommerce.controller;
 
-import com.example.ecommerce.dto.JwtResponse;
-import com.example.ecommerce.dto.LoginRequest;
+import com.example.ecommerce.dto.jwt.JwtResponse;
+import com.example.ecommerce.dto.jwt.LoginRequest;
 import com.example.ecommerce.dto.MessageResponse;
-import com.example.ecommerce.dto.SignupRequest;
+import com.example.ecommerce.dto.jwt.SignupRequest;
 import com.example.ecommerce.entity.Role;
 import com.example.ecommerce.entity.User;
 import com.example.ecommerce.enums.ERole;

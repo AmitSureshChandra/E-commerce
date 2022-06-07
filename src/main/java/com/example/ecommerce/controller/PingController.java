@@ -11,7 +11,7 @@ import java.util.Objects;
 
 @RestController
 @RequestMapping("/api/test")
-public class TestController {
+public class PingController {
     @GetMapping("/all")
     public String allAccess() {
         return "Public Content.";
